@@ -1,0 +1,98 @@
+<br/>
+<br/>
+<div class="separator" style="clear: both; text-align: center;"></div>
+<html dir="rtl">
+
+<head>
+
+<script type="text/javascript">
+
+var image1=new Image()
+
+image1.src="https://goo.gl/sz7fuw"
+
+var image2=new Image()
+
+image2.src="https://goo.gl/NRTKBr"
+
+var image3=new Image()
+
+image3.src="https://goo.gl/5Qe6Jf"
+
+var image4=new Image()
+
+image4.src="https://goo.gl/kUBYAF"
+
+var image5=new Image()
+
+image5.src="https://goo.gl/HCYZiE"
+
+var image6=new Image()
+
+image6.src="https://goo.gl/4ZFXxQ"
+
+var image7=new Image()
+
+image7.src="https://goo.gl/GYYsse"
+
+var image8=new Image()
+
+image8.src="https://goo.gl/Ml8Jgz"
+
+var image9=new Image()
+
+image9.src="https://goo.gl/qHP2eC"
+
+
+//-->
+
+</script>
+
+</head>
+
+<body bgcolor="#000000">
+
+<img height="390" name="slide" src="https://www.ims.gov.il/Ims/Pages/RadarImage.aspx?Row=0&amp;TotalImages=10&amp;LangID=1&amp;Location" width="100%" />
+
+<script>
+
+//variable that will increment through the images
+
+var step=1
+
+function slideit(){
+
+//if browser does not support the image object, exit.
+
+if (!document.images)
+
+return
+
+document.images.slide.src=eval("image"+step+".src")
+
+if (step<9)
+
+step++
+
+else
+
+step=1
+
+//call function "slideit()" every 2.5 seconds
+
+setTimeout("slideit()",1000)
+
+}
+
+slideit()
+
+//-->
+
+</script>
+
+</body>
+
+</html>
+<form>
+    <button onClick="window.location.reload();"><img height="20px" width="30px" src="img/refesh.png" /></button>&nbsp;&nbsp;&nbsp;<a href="x2.html" ><font color="FFFFFF">X2</font></a>&nbsp;&nbsp;&nbsp;<a href="x1.html"><font color="FFFFFF">X1</font></a>&nbsp;&nbsp;&nbsp;<a href="how.html"><font color="FFFFFF">כיצד עובד מכ"ם גשם</font></a>&nbsp;&nbsp;&nbsp;<a href="ruah.html"><font color="FFFFFF">מכ"ם רוחות</font></a>
+</form>
